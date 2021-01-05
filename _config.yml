@@ -11,7 +11,7 @@ external-image: false
 picture: assets/images/square.png
 
 home: https://newgazette.co
-url: https://ig.newgazette.co
+url: https://latest.newgazette.co
 permalink: /:title/
 
 # To enable google analytics, supply your token below
