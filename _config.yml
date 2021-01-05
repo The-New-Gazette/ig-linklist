@@ -7,8 +7,9 @@ bio: Enjoy hand-curated Huntsville news in your inbox 3x a week. Stay informed i
 
 # if it's an external image, update below for true
 # better with square images
-external-image: false
-picture: assets/images/profile.jpg
+external-image: true
+#picture: assets/images/profile.jpg
+picture: https://newgazette.co/img/logo_new.svg
 
 home: https://newgazette.co
 url: https://ig.newgazette.co
