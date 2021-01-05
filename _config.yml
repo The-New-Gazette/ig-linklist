@@ -21,11 +21,11 @@ permalink: /:title/
 # analytics-piwik-id: 1
 
 # if you don't have any of social below, comment the line
-# facebook:
+facebook: newgazette
 twitter: thenewgazette
 instagram: newgazettehsv
 # pinterest:
-linkedin: johndoe
+linkedin: the-new-gazette
 # youtube: 
 # spotify:  
 # github:
