@@ -37,18 +37,19 @@ email: editor@newgazette.co
 width: normal
 
 # if you do/don't need pagination, toggle 'enabled' between true/false below
-pagination:
-  enabled: true
-  sort_reverse: true # display recent posts first
-  title: ":title" # Changing this will mess up the header display logic
-  per_page: 2
-  permalink: "/:num/" # pagination link that will be appended
+paginate: 2
+# pagination:
+#   enabled: true
+#   sort_reverse: true # display recent posts first
+#   title: ":title" # Changing this will mess up the header display logic
+#   per_page: 2
+#   permalink: "/:num/" # pagination link that will be appended
 
 # if you don't need projects, comment the *projects* configs below
 #projects: true
 
 # if you don't need "about" or "blog", comment them out below
-about: false
+about: true
 blog: false
 
 # If you want to include your resume, set to true
@@ -64,6 +65,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-gist
   - jemoji
+  # - jekyll-paginate --  https://jekyllrb.com/docs/pagination/
 
 jekyll-mentions:
   base_url: https://github.com
