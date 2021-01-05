@@ -26,7 +26,7 @@ If you want to test locally on your machine, perform the following:
 1. Read and follow [these](https://docs.github.com/en/github/working-with-github-pages/testing-your-github-pages-site-locally-with-jekyll) instructions.
 2. Clone the forked repo on your machine.
 3. Enter the cloned folder via terminal and run `bundle install`.
-4. Then run `bundle exec jekyll serve --config _config.yml,_config-dev.yml`.
+4. Then run `bundle exec jekyll serve --config _config.yml --force_polling`.
 5. Open it in your browser: `http://localhost:4000`.
 
 ## Settings

@@ -1,5 +1,5 @@
 # main text of home
-#name: John Doe
+name: The New Gazette
 bio: Enjoy hand-curated Huntsville news in your inbox 3x a week. Stay informed in 5 minutes or less with no ads or bias.
 
 # twitter summary info
@@ -7,9 +7,8 @@ bio: Enjoy hand-curated Huntsville news in your inbox 3x a week. Stay informed i
 
 # if it's an external image, update below for true
 # better with square images
-external-image: true
-#picture: assets/images/profile.jpg
-picture: https://newgazette.co/img/logo_new.svg
+external-image: false
+picture: assets/images/square.png
 
 home: https://newgazette.co
 url: https://ig.newgazette.co
@@ -26,19 +25,10 @@ permalink: /:title/
 facebook: newgazette
 twitter: thenewgazette
 instagram: newgazettehsv
-# pinterest:
 linkedin: the-new-gazette
-# youtube: 
-# spotify:  
-# github:
-# gitlab: 
-# lastfm: 
-# stackoverflow: 
-# quora: 
-reddit: new-gazette
-# medium: 
-# vimeo: myvimeo
-# lanyrd: mylanyrd
+# youtube:  
+# reddit: new-gazette
+# vimeo:
 email: editor@newgazette.co
 
 # do you want a larger site? change the option below
@@ -48,10 +38,10 @@ width: normal
 
 # if you do/don't need pagination, toggle 'enabled' between true/false below
 pagination:
-  enabled: false
+  enabled: true
   sort_reverse: true # display recent posts first
   title: ":title" # Changing this will mess up the header display logic
-  per_page: 5
+  per_page: 2
   permalink: "/:num/" # pagination link that will be appended
 
 # if you don't need projects, comment the *projects* configs below

@@ -1,6 +1,5 @@
 ---
 layout: post
-date: 2021-01-01 22:48
 title: HSV - December Monthly Brief
 ---
 
