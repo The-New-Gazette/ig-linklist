@@ -3,10 +3,20 @@ layout: page
 title: Links
 ---
 <div class="main">
+
   {% for post in site.posts %}
     {% if forloop.first == true %}
+
     <h2 class="group_title">LATEST</h2>
-    <a href="{{ post.excerpt | remove: '<p>' | remove: '</p>' }}" class="button" target="_blank">{{ post.title }}</a>
+    {% if post.title_link != "" %}
+    <a href="{{ post.title_link }}" class="button">{{ post.title }}</a>
+    {% else %}
+    <div class="multi-source">
+      <span>{{ post.title }}</span>
+      {{ post.excerpt }}
+    </div>
+    {% endif %}
+
     {% endif %}
   {% endfor %}
 
@@ -15,7 +25,16 @@ title: Links
 
   {% for post in site.posts %}
     {% if forloop.first == false %}
-    <a href="{{ post.excerpt | remove: '<p>' | remove: '</p>' }}" class="button" target="_blank">{{ post.title }}</a>
+
+    {% if post.title_link != "" %}
+    <a href="{{ post.title_link }}" class="button">{{ post.title }}</a>
+    {% else %}
+    <div class="multi-source">
+      <span>{{ post.title }}</span>
+      {{ post.excerpt }}
+    </div>
+    {% endif %}
+
     {% endif %}
   {% endfor %}
 </div>

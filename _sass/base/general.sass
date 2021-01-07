@@ -27,23 +27,22 @@ h3
 h4
 	font-size: 1.6rem
 
+h5
+	font-size: 1.6rem
+	text-transform: none
+	text-align: left
+	font-weight: normal
+	padding-left: 15px
+
 div.main
 	padding-top: 50px
 	padding-bottom: 20px
-
-.group_title
-	font-size: 2.25rem
-	margin: 0 0 24px
-	color: $tng_brown
-	font-family: 'Playfair Display'
-	letter-spacing: 1.75px
-	text-align: center
 
 a
 	color: $delta
 	text-decoration: underline
 
-a.button
+a.button,
 	background-color: $tng_forest
 	color: $tng_tan
 	text-align: center
@@ -54,7 +53,8 @@ a.button
 	margin: 5px
 	margin-bottom: 20px
 
-a.button:hover 
+a.button:hover,
+.multi-source:hover
 	background-color: $tng_brown
 
 p
@@ -74,9 +74,11 @@ strong
 ul,
 ol
 	li
-		line-height: 2.4rem
-		font-weight: 300
-		color: $alpha
+		line-height: 2.6rem
+		font-weight: 400
+		color: $tng_tan
+		text-align: left
+		margin-bottom: 10px
 
 img,
 pre,
@@ -156,3 +158,44 @@ pre
 
 .wrapper-large
 	max-width: 810px
+
+.group_title
+	font-size: 2.25rem
+	margin: 0 0 24px
+	color: $tng_brown
+	font-family: 'Playfair Display'
+	letter-spacing: 1.75px
+	text-align: center
+
+.multi-source
+	background-color: $tng_forest
+	color: $tng_tan
+	text-align: center
+	text-decoration: none
+	text-transform: uppercase
+	display: block
+	padding: 10px
+	margin: 5px
+	margin-bottom: 20px
+
+	li
+		a 
+			background-color: lighten($tng_forest, 10%)
+			padding: 5px
+
+.multi-source:hover
+	li
+		a 
+			background-color: darken($tng_brown, 15%)
+			padding: 5px
+
+
+.multi-source a:link,
+.multi-source a:visited
+	color: $tng_tan
+	text-transform: none
+	text-decoration: none
+
+.multi-source a:hover
+	text-transform: none
+	text-decoration: underline
