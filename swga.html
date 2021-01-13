@@ -1,0 +1,19 @@
+---
+layout: page
+title: Links
+---
+<div class="main">
+
+{% for post in site.swga %}
+  <h2 class="group_title">COVID-19 RESOURCES</h2>
+  {% if post.title_link != "" %}
+  <a href="{{ post.title_link }}" class="button">{{ post.title }}</a>
+  {% else %}
+  <div class="multi-source">
+    <span>{{ post.title }}</span>
+    {{ post.excerpt }}
+  </div>
+  {% endif %}
+{% endfor %}
+
+</div>

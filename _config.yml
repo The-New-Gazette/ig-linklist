@@ -1,17 +1,19 @@
-# main text of home
+# Main Page
 name: The New Gazette
 bio: Enjoy hand-curated Huntsville news in your inbox 3x a week. Stay informed in 5 minutes or less with no ads or bias.
+home: https://newgazette.co
+url: https://latest.newgazette.co
 
-# twitter summary info
-#description: john's nifty linktreehosted on github pages.
+# SWGA Page
+name_swga: The New Gazette - SWGA Beta
+bio_swga: Enjoy hand-curated news for SW Georgia in your inbox. Stay informed in 5 minutes or less with no ads or bias.
+home_swga: https://newgazette.co/swga
+url_swga: https://latest.newgazette.co/swga
 
 # if it's an external image, update below for true
 # better with square images
 external-image: false
 picture: assets/images/square.png
-
-home: https://newgazette.co
-url: https://latest.newgazette.co
 permalink: /:title/
 
 # To enable google analytics, supply your token below
