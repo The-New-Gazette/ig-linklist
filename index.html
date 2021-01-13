@@ -4,7 +4,7 @@ title: Links
 ---
 <div class="main">
 
-  {% for post in site.posts %}
+  {% for post in site.categories.HSV %}
     {% if forloop.first == true %}
 
     <h2 class="group_title">LATEST</h2>
@@ -23,7 +23,7 @@ title: Links
   <br>
   <h2 class="group_title">PREVIOUS</h2>
 
-  {% for post in site.posts %}
+  {% for post in site.categories.HSV %}
     {% if forloop.first == false %}
 
     {% if post.title_link != "" %}

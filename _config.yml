@@ -5,7 +5,7 @@ home: https://newgazette.co
 url: https://latest.newgazette.co
 
 # SWGA Page
-name_swga: The New Gazette - SWGA Beta
+name_swga: The New Gazette - SWGA
 bio_swga: Enjoy hand-curated news for SW Georgia in your inbox. Stay informed in 5 minutes or less with no ads or bias.
 home_swga: https://newgazette.co/swga
 url_swga: https://latest.newgazette.co/swga
@@ -14,7 +14,8 @@ url_swga: https://latest.newgazette.co/swga
 # better with square images
 external-image: false
 picture: assets/images/square.png
-permalink: /:title/
+#permalink: /:title/
+permalink: /:categories/:title/
 
 # To enable google analytics, supply your token below
 # analytics-google: 'UA-MYANALYTICS'

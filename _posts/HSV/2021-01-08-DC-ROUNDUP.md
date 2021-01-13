@@ -1,5 +1,6 @@
 ---
 layout: post
-title: "item 3"
+categories: HSV
+title: "Special Report: Local connections to DC riots"
 title_link: "https://sendy.newgazette.co/w/A4yZPT8lDFIBbkqLkLiVoQ"
 ---
