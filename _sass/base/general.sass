@@ -59,7 +59,6 @@ a.button:hover,
 
 p
 	line-height: 1.7
-	color: $alpha
 	font-weight: 300
 	margin-bottom: 20px
 	letter-spacing: 0.4px
@@ -178,24 +177,33 @@ pre
 	margin: 5px
 	margin-bottom: 20px
 
+	p
+		text-transform: none
+		text-align: left
+		background-color: lighten($tng_forest, 10%)
+		padding: 10px
+		margin-left: 5px
+		margin-right: 5px
+
 	li
 		a 
 			background-color: lighten($tng_forest, 10%)
 			padding: 5px
 
+	a:link,
+	a:visited
+		color: $tng_tan
+		text-transform: none
+		text-decoration: none
+
 .multi-source:hover
 	li
 		a 
 			background-color: darken($tng_brown, 15%)
-			padding: 5px
 
+	p
+		background-color: darken($tng_brown, 15%)
 
-.multi-source a:link,
-.multi-source a:visited
-	color: $tng_tan
-	text-transform: none
-	text-decoration: none
-
-.multi-source a:hover
-	text-transform: none
-	text-decoration: underline
+	a:hover
+		text-transform: none
+		text-decoration: underline
