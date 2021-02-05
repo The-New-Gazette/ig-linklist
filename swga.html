@@ -6,7 +6,7 @@ title: Links
   <h2 class="group_title">COVID-19 RESOURCES</h2>
   {% for post in site.categories.SWGA reversed %}
   {% if post.title_link != "" %}
-  <a href="{{ post.title_link }}" class="button">{{ post.title }}</a>
+  <a href="{{ post.title_link }}" class="button" target="_blank">{{ post.title }}</a>
   {% else %}
   <div class="multi-source">
     <span>{{ post.title }}</span>
